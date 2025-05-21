@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn the basics of HTML5 and build semantic, accessible webpages with ease.">
+    <title>Advanced HTML5 Elements</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to HTML5 Basics</h1>
+        <p>Your go-to guide for mastering the essentials of HTML5.</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#registration">Registration</a></li>
+            <li><a href="#media">Media</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About HTML5</h2>
+        <figure>
+            <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg" alt="HTML5 logo representing modern web standards" width="300">
+            <figcaption>Computer screen with HTML Code.</figcaption>
+        </figure>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Step-by-step tutorials</li>
+            <li>Comprehensive resources</li>
+            <li>Expert support</li>
+        </ul>
+    </section>
+
+    <!-- Contact Table Section -->
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>John Doe</td><td>123 Main St</td><td>+123456789</td><td>john@example.com</td></tr>
+                <tr><td>Jane Smith</td><td>456 Elm St</td><td>+987654321</td><td>jane@example.com</td></tr>
+                <tr><td>Robert Brown</td><td>789 Oak St</td><td>+192837465</td><td>robert@example.com</td></tr>
+                <tr><td>Emily Davis</td><td>321 Pine St</td><td>+564738291</td><td>emily@example.com</td></tr>
+                <tr><td>Michael Wilson</td><td>654 Cedar St</td><td>+102938475</td><td>michael@example.com</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Ordered List Section -->
+    <section id="list">
+        <h2>HTML5 Features</h2>
+        <ol type="I">
+            <li>Semantic Elements</li>
+            <li>Multimedia Support</li>
+            <li>Forms with Validation</li>
+            <li>Canvas and Graphics</li>
+            <li>Geolocation</li>
+        </ol>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section id="registration">
+        <h2>Registration Form</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+            </select><br>
+
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <p>Interests:</p>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="design" name="interests" value="design">
+            <label for="design">Design</label>
+            <input type="checkbox" id="gaming" name="interests" value="gaming">
+            <label for="gaming">Gaming</label><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section id="media">
+        <h2>Learn Through Multimedia</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>Follow us on social media:</p>
+        <ul>
+            <li><a href="https://twitter.com/example" target="_blank">Twitter</a></li>
+            <li><a href="https://facebook.com/example" target="_blank">Facebook</a></li>
+            <li><a href="https://instagram.com/example" target="_blank">Instagram</a></li>
+        </ul>
+        <p>&copy; 2025 HTML5 Basics. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
